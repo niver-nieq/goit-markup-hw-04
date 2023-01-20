@@ -254,7 +254,9 @@ main li {
 .principal-title-equipo:hover,
 .principal-text-equipo:hover,
 .portfolio-title:hover,
-.portfolio-text:hover {
+.portfolio-text:hover,
+.images-detalle p:hover,
+.images-detalle1 p:hover {
     text-decoration: underline var(--var-color-fondo-hover-focus) 1px;
 }
 
@@ -358,6 +360,12 @@ main li {
     background: rgba(47, 48, 58, 0.8);
     margin: auto;
     margin-top: 66%;
+}
+
+.images-detalle p:hover,
+.images-detalle1 p:hover {
+    border: 2px solid var(--var-color-fondo-hover-focus);
+    border-radius: 2px;
 }
 
 .image-prin-detalle {
