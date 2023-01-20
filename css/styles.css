@@ -131,11 +131,8 @@ main li {
 .conten-prin {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/images2/Imagen.jpg);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
     max-width: 1600px;
-    min-height: 0 auto;
-
+    min-height: 600px;
     /* background: var(--var-color-fondo); */
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin: auto;
@@ -229,6 +226,7 @@ main li {
     width: 270px;
     margin: auto;
     font-size: 14px;
+    text-align: justify;
     line-height: 1.71em;
     /* or 171% */
     letter-spacing: 0.03em;
@@ -304,11 +302,62 @@ main li {
     height: 323.7px;
     margin-left: 30.26px;
     margin-right: 23.42px;
+
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .images-detalle {
     width: 373.16px;
     height: 323.7px;
+
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+.images-detalle p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7142em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 0%;
+    width: 373.16px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: rgba(47, 48, 58, 0.8);
+    margin: auto;
+    margin-top: 66%;
+}
+
+.images-detalle1 p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7142em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 0%;
+    width: 373.16px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: rgba(47, 48, 58, 0.8);
+    margin: auto;
+    margin-top: 66%;
 }
 
 .image-prin-detalle {
