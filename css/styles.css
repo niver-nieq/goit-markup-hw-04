@@ -1,0 +1,559 @@
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    Background: #ffffff;
+    margin: 0%;
+}
+
+:root {
+    --var-color-text: #757575;
+    --var-color-fondo-hover-focus: #2196F3;
+    --var-colo-text-hover-focus: #FFFFFF;
+    --var-color-fondo: #2F303A;
+    --var-color-fondo1: #F5F4FA;
+}
+
+.container {
+    width: 1200px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 0 auto;
+    padding-bottom: 94px;
+    padding-top: 94px;
+    /* background: #2196F3; */
+}
+
+/* En esta posición trabajamos en el header */
+
+/* En esta posición trabajo en el logo de la pagina */
+.cabezera {
+    background: #FFFFFF;
+    height: 80px;
+    display: flex;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.cont-nav {
+    display: flex;
+    padding-left: 15px;
+}
+
+.link-web {
+    text-decoration: none;
+    margin: auto;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15em;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+/* En esta posición trabajo en la lista de navegación */
+.link-nav {
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+.link-nav a {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--var-color-title);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7142em;
+    letter-spacing: 0.02em;
+    margin: auto;
+    margin-right: 50px;
+
+}
+
+.current {
+    color: var(--var-color-fondo-hover-focus);
+}
+
+.link-nav a:hover,
+.link-nav a:focus,
+.link-nav a:active {
+    color: var(--var-color-fondo-hover-focus);
+}
+
+
+/* En esta ósición trabajo de la lista de contacto */
+
+.link-cont {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    padding: 0px;
+    padding-left: 290px;
+
+}
+
+.link-cont a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7142em;
+    letter-spacing: 0.02em;
+    color: var(--var-color-text);
+    margin-right: 50px;
+    padding: 0px;
+}
+
+.link-cont a:hover,
+.link-cont a:focus {
+    color: var(--var-color-fondo-hover-focus);
+}
+
+/* Ya esta listo el header */
+/* ************************************** */
+/* En esta posición trabajamos en el main */
+/* ************************************** */
+main {
+    background: var(--var-colo-text-hover-focus);
+}
+
+main li {
+    list-style: none;
+}
+
+.conten-prin {
+    background: var(--var-color-fondo);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/* Trabajo en la section del titulo principal */
+
+.title {
+    width: 696px;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363em;
+    /* or 136% */
+
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+/* Trabajo en la seción del boton pagina Principal */
+.boton {
+    /* Centrar boton */
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background: #2196F3;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+
+    /* Le damos estilo a las letras  */
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875em;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid var(--brand-color);
+}
+
+.boton:hover,
+.boton:focus,
+.boton:active {
+    background: var(--var-color-fondo-hover-focus);
+    color: var(--var-colo-text-hover-focus);
+}
+
+.principal-detalles {
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.principal-detalles ul {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.lis-detalle {
+    margin-right: 30px;
+}
+
+.principal-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.428em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: var(--var-color-title);
+}
+
+.principal-text {
+    width: 270px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.71em;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: var(--var-color-text);
+}
+
+.principal-title-equipo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.428em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--var-color-title);
+}
+
+/* Aplicamos hover para los titulos */
+.title:hover,
+.principal-title:hover,
+.principal-title:hover,
+.principal-text:hover,
+.principal-text:active,
+.title-pg-principal:hover,
+.principal-title-equipo:hover,
+.principal-text-equipo:hover,
+.portfolio-title:hover,
+.portfolio-text:hover {
+    text-decoration: underline var(--var-color-fondo-hover-focus) 1px;
+}
+
+.principal-text-equipo {
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.71em;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: var(--var-color-text);
+}
+
+/* Centramos las imagenes en la pagina principal */
+.cont-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+/* Trabajamos en los titulos del cuerpo h2 */
+.title-pg-principal {
+    margin: auto;
+    padding-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--var-color-title);
+}
+
+.list-img {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.images-detalle1 {
+    width: 373.16px;
+    height: 323.7px;
+    margin-left: 30.26px;
+    margin-right: 23.42px;
+}
+
+.images-detalle {
+    width: 373.16px;
+    height: 323.7px;
+}
+
+.image-prin-detalle {
+    width: 373.16px;
+    height: 323.7px;
+}
+
+.image-prin-detalle:hover,
+.image-prin-equipo:hover {
+    border: 2px solid var(--var-color-fondo-hover-focus);
+    border-radius: 2px;
+}
+
+/* Trabajo en la section de nuestro equipo */
+.con-equipo {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--var-color-fondo1);
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+.lis-equipo {
+    display: flex;
+    margin: auto;
+    padding: 0px
+}
+
+.conten-img-equipo {
+    background: #FFFFFF;
+    margin-right: 30px;
+    padding-bottom: 30px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.conten-img-equipo1 {
+    background: #FFFFFF;
+    margin: 0 auto;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.image-prin-equipo {
+    width: 270px;
+    height: 260px;
+}
+
+.link-portafolio {
+    text-decoration: none;
+}
+
+/* Trabajamos en el portafolio */
+.cuepo-portafolio {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/* Trabajo en la seción del boton pagina Portafolio */
+.cont-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px;
+    padding-bottom: 50px;
+}
+
+.button1 {
+    width: 73px;
+    height: 38px;
+    margin-right: 9px;
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--var-colo-text-hover-focus);
+    border: 2px solid var(--brand-color);
+    border-radius: 4px;
+    Background: var(--var-color-fondo-hover-focus);
+}
+
+.button {
+    width: 145px;
+    height: 38px;
+    margin-right: 9px;
+    background: var(--var-color-fondo1);
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625em;
+    border: 2px solid var(--brand-color);
+    border-radius: 4px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus,
+.button:active,
+.button1:hover,
+.button1:focus,
+.button1:active {
+    cursor: pointer;
+    background: var(--var-color-fondo-hover-focus);
+    color: var(--var-colo-text-hover-focus);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.cont-portafolio-img {
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cont-img-portafolio {
+    width: 370px;
+    height: 404px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    border-bottom: 3px solid #EEEEEE;
+}
+
+.cont-img-portafolio1 {
+    width: 370px;
+    height: 404px;
+    margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    border-bottom: 3px solid #EEEEEE;
+}
+
+.cont-img-portafolio2 {
+    width: 370px;
+    height: 404px;
+    margin-right: 30px;
+    border: 1px solid #EEEEEE;
+    border-bottom: 3px solid #EEEEEE;
+}
+
+.cont-img-portafolio3 {
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEEEEE;
+    border-bottom: 3px solid #EEEEEE;
+}
+
+.cont-img-portafolio:hover,
+.cont-img-portafolio1:hover,
+.cont-img-portafolio2:hover,
+.cont-img-portafolio3:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.image-por {
+    width: 370px;
+    height: 294px;
+    padding-right: 1px;
+}
+
+/* Trabajamos en los titulos del cuerpo h3 */
+.portfolio-title {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+    color: #212121;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+    color: var(--var-color-text);
+}
+
+/* En esta posición trabajamos en el footer */
+
+footer {
+    min-width: 250;
+    /* height: 252px; */
+    padding-left: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--var-color-fondo);
+}
+
+.link-web-footer {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15em;
+    color: #2196F3;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+.link-footer {
+    list-style: none;
+    font-style: normal;
+    padding: 0%;
+    width: 231px;
+    height: 92px;
+}
+
+.link-footer a:hover,
+.link-footer a:focus {
+    color: var(--var-color-fondo-hover-focus);
+}
+
+.link-footer a {
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+.link-map {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142em;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.link-con {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142em;
+    ;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
