@@ -57,6 +57,47 @@ body {
     color: #2196F3;
 }
 
+/* Estilos de svg */
+.images-vect {
+    background: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.icons-detalle {
+    margin: 25px 100px;
+}
+
+.container-redes-socia {
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    margin-top: 16px;
+    padding: 0px;
+}
+
+.icons-redes {
+    border-radius: 50%;
+    height: 44px;
+    margin-right: 10px;
+    padding: 12px;
+    fill: #afb1b8;
+    margin-bottom: 0px;
+}
+
+.icons-redes:hover {
+    background: #2196F3;
+    fill: #F5F4FA;
+}
+
+.redes {
+    width: 20px;
+    height: 20px;
+}
+
+/* .redes:hover {
+    fill: red;
+} */
+
 /* En esta posición trabajo en la lista de navegación */
 .link-nav {
     display: flex;
