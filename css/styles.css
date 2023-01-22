@@ -94,6 +94,10 @@ body {
     border-radius: 2px;
 }
 
+.images-vect:hover {
+    fill: #2196F3;
+}
+
 .container-redes-socia {
     display: flex;
     justify-content: center;
