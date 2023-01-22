@@ -59,12 +59,19 @@ body {
 
 /* Estilos de svg */
 .images-vect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
     background: #F5F4FA;
     margin-bottom: 30px;
 }
 
-.icons-detalle {
-    margin: 25px 100px;
+
+.images-vect:hover {
+    border: 2px solid var(--var-color-fondo-hover-focus);
+    border-radius: 2px;
 }
 
 .container-redes-socia {
@@ -73,6 +80,18 @@ body {
     height: 44px;
     margin-top: 16px;
     padding: 0px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.container-redes-footer {
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    margin-top: 16px;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .icons-redes {
@@ -84,7 +103,18 @@ body {
     margin-bottom: 0px;
 }
 
-.icons-redes:hover {
+.icons-redes-footer {
+    border-radius: 50%;
+    height: 44px;
+    margin-right: 10px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    fill: #afb1b8;
+    margin-bottom: 0px;
+}
+
+.icons-redes:hover,
+.icons-redes-footer:hover {
     background: #2196F3;
     fill: #F5F4FA;
 }
@@ -94,9 +124,92 @@ body {
     height: 20px;
 }
 
-/* .redes:hover {
-    fill: red;
-} */
+section.container-clientes {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 59px;
+}
+
+.container-icons-clientes {
+    display: flex;
+    justify-content: center;
+}
+
+.icons-clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    Width: 170px;
+    Height: 81px;
+    fill: #AFB1B8;
+    margin-right: 30px;
+}
+
+.icons-clientes-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    Width: 170px;
+    Height: 81px;
+    fill: #AFB1B8;
+}
+
+.icons-clientes:hover,
+.icons-clientes-6:hover {
+    fill: #2196F3;
+    border: 2px solid var(--var-color-fondo-hover-focus);
+    border-radius: 2px;
+}
+
+.cliente-1 {
+    width: 41px;
+    height: 46.7px;
+}
+
+.cliente-2 {
+    width: 40px;
+    height: 52px;
+}
+
+.cliente-3 {
+    width: 43.46px;
+    height: 41.18px;
+}
+
+.cliente-4 {
+    width: 84.44px;
+    height: 40.62px;
+}
+
+.cliente-5 {
+    width: 62.54px;
+    height: 45.43px;
+}
+
+.cliente-6 {
+    width: 93.73px;
+    height: 43.93px;
+}
+
+.title-footer {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7142em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.cont-footer {
+    margin-right: 70px;
+}
 
 /* En esta posición trabajo en la lista de navegación */
 .link-nav {
@@ -297,7 +410,8 @@ main li {
 .portfolio-title:hover,
 .portfolio-text:hover,
 .images-detalle p:hover,
-.images-detalle1 p:hover {
+.images-detalle1 p:hover,
+.title-footer:hover {
     text-decoration: underline var(--var-color-fondo-hover-focus) 1px;
 }
 
@@ -602,10 +716,10 @@ main li {
 
 /* En esta posición trabajamos en el footer */
 
-footer {
-    min-width: 250;
-    /* height: 252px; */
+.container-footer {
+    display: flex;
     padding-left: 15px;
+    padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
     background: var(--var-color-fondo);
