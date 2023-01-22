@@ -58,6 +58,26 @@ body {
 }
 
 /* Estilos de svg */
+
+.icons-header {
+    Width: 16px;
+    Height: 12px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.icons-header1 {
+    Width: 10px;
+    Height: 16px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.email:hover,
+.contacto:hover {
+    fill: #2196F3;
+}
+
 .images-vect {
     display: flex;
     justify-content: center;
@@ -249,7 +269,7 @@ section.container-clientes {
     list-style: none;
     margin: auto;
     padding: 0px;
-    padding-left: 290px;
+    padding-left: 273px;
 
 }
 
