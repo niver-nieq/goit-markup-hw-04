@@ -18,50 +18,44 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="container">
-            <section class="cabezera">
-                <nav class="cont-nav">
-                    <a class="link-web" href="http://webstudio.com.bo/" target="_blank"
-                        title="Ir a pagina">WebStudio</a>
-                    <!-- La navegación а otros sitios -->
-                    <ul class="link-nav">
-                        <li class="current"><a href="./index.html">Estudio</a></li>
-                        <li><a href="./portfolio.html">Portafolio</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
-                    <!-- target="_blank" Este atribito o etiqueta no regideriona a otra pagina cuando hacemos click sobre algun tipo en especifico del texto -->
-                    <!-- title="" Nos pone una descripción cuando pones el cursor sobre algun texto o algo en especifico -->
-                </nav>
-
-                <ul class="link-cont">
-                    <li>
-                        <a class="email" href="mailto:info@devstudio.com">
-                            <svg class="icons-header" width="70" height="70">
-                                <use href="./images/icons.svg#icon-mail"></use>
-                            </svg>info@devstudio.com</a>
-                    </li>
-                    <li><a class="contacto" href="tel:+525555296000">
-                            <svg class="icons-header1" width="70" height="70">
-                                <use href="./images/icons.svg#icon-telfono-inteligente"></use>
-                            </svg>+52 55 5529 6000</a>
-                    </li>
+    <div class="container">
+        <header class="cabezera">
+            <nav class="cont-nav">
+                <a class="link-web" href="http://webstudio.com.bo/" target="_blank" title="Ir a pagina">WebStudio</a>
+                <!-- La navegación а otros sitios -->
+                <ul class="link-nav">
+                    <li class="current"><a href="./index.html">Estudio</a></li>
+                    <li><a href="./portfolio.html">Portafolio</a></li>
+                    <li><a href="#">Contacto</a></li>
                 </ul>
+                <!-- target="_blank" Este atribito o etiqueta no regideriona a otra pagina cuando hacemos click sobre algun tipo en especifico del texto -->
+                <!-- title="" Nos pone una descripción cuando pones el cursor sobre algun texto o algo en especifico -->
+            </nav>
+
+            <ul class="link-cont">
+                <li>
+                    <a class="email" href="mailto:info@devstudio.com">
+                        <svg class="icons-header" width="70" height="70">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>info@devstudio.com</a>
+                </li>
+                <li><a class="contacto" href="tel:+525555296000">
+                        <svg class="icons-header1" width="70" height="70">
+                            <use href="./images/icons.svg#icon-telfono-inteligente"></use>
+                        </svg>+52 55 5529 6000</a>
+                </li>
+            </ul>
+        </header>
+
+        <main>
+            <!-- Contenedor del titulo Principal -->
+            <section class="conten-prin">
+                <h1 class="title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+                <button class="boton" type="button">Solucite nuestro servicio</button>
             </section>
-        </div>
-    </header>
 
-    <main>
-        <!-- Contenedor del titulo Principal -->
-        <section class="conten-prin">
-            <h1 class="title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-            <button class="boton" type="button">Solucite nuestro servicio</button>
-        </section>
-
-        <!-- Contenedor de la descripción -->
-        <div class="section">
-            <div class="container">
+            <!-- Contenedor de la descripción -->
+            <div class="section">
                 <section class="container principal-detalles">
                     <ul>
                         <li class="lis-detalle">
@@ -109,9 +103,7 @@
                         </li>
                     </ul>
                 </section>
-            </div>
-            <!-- Imagen a lo que se dedican -->
-            <div class="container">
+                <!-- Imagen a lo que se dedican -->
                 <section class="container cont-img">
                     <h2 class="title-pg-principal">A qué nos dedicamos</h2>
                     <ul class="list-img">
@@ -132,11 +124,9 @@
                         </li>
                     </ul>
                 </section>
-            </div>
 
-            <!-- Imagen del equpo -->
-            <div class="color-equipo">
-                <div class="container">
+                <!-- Imagen del equpo -->
+                <div class="color-equipo">
                     <section class="container con-equipo">
                         <h2 class="title-pg-principal">Nuestro Equipo</h2>
                         <ul class="lis-equipo">
@@ -258,48 +248,46 @@
                         </ul>
                     </section>
                 </div>
+
+                <section class="container-clientes">
+                    <h2 class="title-pg-principal">Clientes Regulares</h2>
+                    <div class="container-icons-clientes">
+                        <div class="icons-clientes">
+                            <svg class="cliente-1" widht="41" height="46.7">
+                                <use href="./images/icons.svg#icon-cliente-1"></use>
+                            </svg>
+                        </div>
+                        <div class="icons-clientes">
+                            <svg class="cliente-2" widht="41" height="46.7">
+                                <use href="./images/icons.svg#icon-cliente-2"></use>
+                            </svg>
+                        </div>
+                        <div class="icons-clientes">
+                            <svg class="cliente-3" widht="41" height="46.7">
+                                <use href="./images/icons.svg#icon-cliente-3"></use>
+                            </svg>
+                        </div>
+                        <div class="icons-clientes">
+                            <svg class="cliente-4" widht="41" height="46.7">
+                                <use href="./images/icons.svg#icon-cliente-4"></use>
+                            </svg>
+                        </div>
+                        <div class="icons-clientes">
+                            <svg class="cliente-5" widht="41" height="46.7">
+                                <use href="./images/icons.svg#icon-cliente-5"></use>
+                            </svg>
+                        </div>
+                        <div class="icons-clientes-6">
+                            <svg class="cliente-6" widht="41" height="46.7">
+                                <use href="./images/icons.svg#icon-cliente-6"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </section>
             </div>
+        </main>
 
-            <section class="container-clientes">
-                <h2 class="title-pg-principal">Clientes Regulares</h2>
-                <div class="container-icons-clientes">
-                    <div class="icons-clientes">
-                        <svg class="cliente-1" widht="41" height="46.7">
-                            <use href="./images/icons.svg#icon-cliente-1"></use>
-                        </svg>
-                    </div>
-                    <div class="icons-clientes">
-                        <svg class="cliente-2" widht="41" height="46.7">
-                            <use href="./images/icons.svg#icon-cliente-2"></use>
-                        </svg>
-                    </div>
-                    <div class="icons-clientes">
-                        <svg class="cliente-3" widht="41" height="46.7">
-                            <use href="./images/icons.svg#icon-cliente-3"></use>
-                        </svg>
-                    </div>
-                    <div class="icons-clientes">
-                        <svg class="cliente-4" widht="41" height="46.7">
-                            <use href="./images/icons.svg#icon-cliente-4"></use>
-                        </svg>
-                    </div>
-                    <div class="icons-clientes">
-                        <svg class="cliente-5" widht="41" height="46.7">
-                            <use href="./images/icons.svg#icon-cliente-5"></use>
-                        </svg>
-                    </div>
-                    <div class="icons-clientes-6">
-                        <svg class="cliente-6" widht="41" height="46.7">
-                            <use href="./images/icons.svg#icon-cliente-6"></use>
-                        </svg>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </main>
-
-    <footer>
-        <div class="container">
+        <footer>
             <section class="container-footer">
                 <section class="cont-footer">
                     <a class="link-web-footer" href="https://taupe-melba-f719b1.netlify.app/" target="_blank"
@@ -342,8 +330,9 @@
                     </div>
                 </div>
             </section>
-        </div>
-    </footer>
+        </footer>
+
+    </div>
 
 </body>
 
