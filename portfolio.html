@@ -16,39 +16,44 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="cabezera">
-            <nav class="cont-nav">
-                <a class="link-web" href="http://webstudio.com.bo/" target="_blank" title="Ir a pagina">WebStudio</a>
-                <!-- La navegación а otros sitios -->
-                <ul class="link-nav">
-                    <li><a href="./index.html">Estudio</a></li>
-                    <li class="current"><a href="./portfolio.html">Portafolio</a></li>
-                    <li><a href="#">Contacto</a></li>
+    <!-- <div class="container"> -->
+    <header>
+        <div class="container">
+            <section class="cabezera">
+                <nav class="cont-nav">
+                    <a class="link-web" href="http://webstudio.com.bo/" target="_blank"
+                        title="Ir a pagina">WebStudio</a>
+                    <!-- La navegación а otros sitios -->
+                    <ul class="link-nav">
+                        <li><a href="./index.html">Estudio</a></li>
+                        <li class="current"><a href="./portfolio.html">Portafolio</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                    <!-- target="_blank" Este atribito o etiqueta no regideriona a otra pagina cuando hacemos click sobre algun tipo en especifico del texto -->
+                    <!-- title="" Nos pone una descripción cuando pones el cursor sobre algun texto o algo en especifico -->
+                </nav>
+
+                <ul class="link-cont">
+                    <li>
+                        <a class="email" href="mailto:info@devstudio.com">
+                            <svg class="icons-header" width="70" height="70">
+                                <use href="./images/icons.svg#icon-mail"></use>
+                            </svg>info@devstudio.com</a>
+                    </li>
+                    <li><a class="contacto" href="tel:+525555296000">
+                            <svg class="icons-header1" width="70" height="70">
+                                <use href="./images/icons.svg#icon-telfono-inteligente"></use>
+                            </svg>+52 55 5529 6000</a>
+                    </li>
                 </ul>
-                <!-- target="_blank" Este atribito o etiqueta no regideriona a otra pagina cuando hacemos click sobre algun tipo en especifico del texto -->
-                <!-- title="" Nos pone una descripción cuando pones el cursor sobre algun texto o algo en especifico -->
-            </nav>
+            </section>
+        </div>
+    </header>
 
-            <ul class="link-cont">
-                <li>
-                    <a class="email" href="mailto:info@devstudio.com">
-                        <svg class="icons-header" width="70" heigh="70">
-                            <use href="./images/icons.svg#icon-mail"></use>
-                        </svg>info@devstudio.com</a>
-                </li>
-                <li><a class="contacto" href="tel:+525555296000">
-                        <svg class="icons-header1" width="70" heigh="70">
-                            <use href="./images/icons.svg#icon-telfono-inteligente"></use>
-                        </svg>+52 55 5529 6000</a>
-                </li>
-            </ul>
-            </ul>
-        </header>
-
-        <main>
-            <!-- Contenedor del portafolio -->
-            <div class="section">
+    <main>
+        <!-- Contenedor del portafolio -->
+        <div class="container">
+            <div class="container section">
                 <section class="cuepo-portafolio">
                     <!-- Contenedor de bonotes -->
                     <ul class="cont-button">
@@ -139,11 +144,12 @@
                     </ul>
                 </section>
             </div>
+        </div>
+    </main>
 
-        </main>
-
-        <footer>
-            <div class="container-footer">
+    <footer>
+        <div class="container">
+            <section class="container-footer">
                 <section class="cont-footer">
                     <a class="link-web-footer" href="https://taupe-melba-f719b1.netlify.app/" target="_blank"
                         title="Ir a pagina">Web<samp class="studiouno">Studio</samp></a>
@@ -168,25 +174,26 @@
                             </svg>
                         </a>
                         <a class="icons-redes-footer" href="">
-                            <svg class="redes" widht="20" heigh="20">
+                            <svg class="redes" widht="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter"></use>
                             </svg>
                         </a>
                         <a class="icons-redes-footer" href="">
-                            <svg class="redes" widht="20" heigh="20">
+                            <svg class="redes" widht="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                         <a class="icons-redes-footer" href="">
-                            <svg class="redes" widht="20" heigh="20">
+                            <svg class="redes" widht="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </div>
                 </div>
-            </div>
-        </footer>
-    </div>
+            </section>
+        </div>
+    </footer>
+    <!-- </div> -->
 </body>
 
 </html>
