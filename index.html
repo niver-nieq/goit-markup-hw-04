@@ -24,7 +24,7 @@
                 <a class="link-web" href="http://webstudio.com.bo/" target="_blank" title="Ir a pagina">WebStudio</a>
                 <!-- La navegación а otros sitios -->
                 <ul class="link-nav">
-                    <li class="current"><a href="./index.html">Estudio</a></li>
+                    <li class="current"><a class="card__after" href="./index.html">Estudio</a></li>
                     <li><a href="./portfolio.html">Portafolio</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
@@ -54,7 +54,18 @@
         <section class="hero">
             <div class="hero-section">
                 <h1 class="title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-                <button class="boton" type="button">Solucite nuestro servicio</button>
+                <button class="boton" type="button" data-modal-open>Solucite nuestro servicio</button>
+            </div>
+        </section>
+
+        <!-- Creamos el modal -->
+        <section class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="button-modal-close" data-modal-close>
+                    <svg width="11" height="11">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
             </div>
         </section>
 
@@ -332,10 +343,8 @@
                 </div>
             </section>
         </section>
-
     </footer>
-
-
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
